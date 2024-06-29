@@ -48,7 +48,7 @@ def save_audio(request):
         with open('counts.pkl','wb') as f:
             pickle.dump(count,f)
         
-        emailid = os.environ.get("USER-NAME")
+        emailid = os.environ.get("EMAIL")
         password = os.environ.get("PASS")
         email = request.user.username
 

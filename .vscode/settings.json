@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e9297519-2f57-4d2d-87b6-0ada39ad0ac8/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/transcribeAi",
+    "appService.deploySubpath": "."
+}
